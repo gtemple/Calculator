@@ -1,0 +1,41 @@
+
+#display {
+    margin: auto;
+    color: black;
+    width: 35%;
+    height: 35%;
+    border: 2px solid darkgray;
+    text-align: right;
+
+}
+
+#num-btns {
+    margin: auto;
+    display: grid;
+    width: 40%;
+    height: 40%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    padding: 4px;
+}
+
+#rest-btns {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    grid-template-rows: 2;
+    grid-gap: 3px;
+}
+
+.eql {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 1;
+}
+.rst {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 2;
+}
